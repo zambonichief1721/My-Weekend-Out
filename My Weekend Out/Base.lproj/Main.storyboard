@@ -5,7 +5,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--More-->
         <scene sceneID="4hs-hW-lEd">
             <objects>
                 <viewController id="Jkd-w4-hZb" sceneMemberID="viewController">
@@ -18,13 +18,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="more" id="Njl-Ou-bAi"/>
+                    <tabBarItem key="tabBarItem" title="More" image="IconList" id="Njl-Ou-bAi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DQb-Zu-azO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="951" y="1144"/>
         </scene>
-        <!--View Controller-->
+        <!--Explore-->
         <scene sceneID="VyJ-Bg-9Mh">
             <objects>
                 <viewController id="gzu-lu-643" sceneMemberID="viewController">
@@ -56,14 +56,14 @@
                             <constraint firstAttribute="trailingMargin" secondItem="JhM-6L-DMf" secondAttribute="trailing" id="av8-CH-SC7"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="search" id="OjO-Ze-xcA"/>
+                    <tabBarItem key="tabBarItem" title="Explore" image="IconLightning" id="OjO-Ze-xcA"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jZ4-Ea-uPR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1721" y="988"/>
         </scene>
-        <!--View Controller-->
+        <!--Featured-->
         <scene sceneID="iyb-JE-DrB">
             <objects>
                 <viewController id="Zcl-gS-MYG" sceneMemberID="viewController">
@@ -95,7 +95,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="rCf-IN-UJ5" secondAttribute="trailing" id="oH8-56-GnH"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="featured" id="6BZ-ni-swA"/>
+                    <tabBarItem key="tabBarItem" title="Featured" image="IconArtist" id="6BZ-ni-swA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1A2-IG-wN6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -143,7 +143,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="4lo-Ve-ogj" secondAttribute="trailing" id="zLw-cR-4LY"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Following" id="gsJ-le-2nw"/>
+                    <tabBarItem key="tabBarItem" title="Following" image="IconArtist" id="gsJ-le-2nw"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ETJ-eu-l3m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -195,7 +195,7 @@
             </objects>
             <point key="canvasLocation" x="2796" y="206"/>
         </scene>
-        <!--View Controller-->
+        <!--Feed-->
         <scene sceneID="fuz-K3-WdD">
             <objects>
                 <viewController id="nTx-9F-ji4" sceneMemberID="viewController">
@@ -211,9 +211,9 @@
                                 <rect key="frame" x="16" y="20" width="568" height="49"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <items>
-                                    <tabBarItem systemItem="recents" id="5uW-qi-UQv"/>
-                                    <tabBarItem title="Following" id="hrg-dL-iJW"/>
-                                    <tabBarItem systemItem="featured" id="qWS-ca-TxJ"/>
+                                    <tabBarItem title="RECENTS" id="5uW-qi-UQv"/>
+                                    <tabBarItem title="FOLLOWING" id="hrg-dL-iJW"/>
+                                    <tabBarItem title="FEATURED" id="qWS-ca-TxJ"/>
                                 </items>
                             </tabBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="uFl-W6-Frw">
@@ -232,17 +232,17 @@
                             <constraint firstItem="02X-ZD-O7p" firstAttribute="leading" secondItem="Ezf-iR-w9Y" secondAttribute="leadingMargin" id="ycK-SR-JE8"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="recents" id="XBS-zz-pED"/>
+                    <tabBarItem key="tabBarItem" title="Feed" image="IconInboxSelected" id="XBS-zz-pED"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zx7-CN-kYH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2796" y="-1228"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Feed-->
         <scene sceneID="aWf-6q-bLA">
             <objects>
                 <tabBarController id="YjM-pA-Lpx" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="mostViewed" id="cDw-SC-Guo" userLabel="Feed"/>
+                    <tabBarItem key="tabBarItem" title="Feed" image="IconInbox" id="cDw-SC-Guo" userLabel="Feed"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="dQh-RM-KV0">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
@@ -281,4 +281,11 @@
             <point key="canvasLocation" x="793" y="189"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="IconArtist" width="17" height="29"/>
+        <image name="IconInbox" width="28" height="26"/>
+        <image name="IconInboxSelected" width="28" height="26"/>
+        <image name="IconLightning" width="22" height="28"/>
+        <image name="IconList" width="28" height="22"/>
+    </resources>
 </document>
