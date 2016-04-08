@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>56975908-FC4C-4CC0-834B-9C77CA6899DE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>My Weekend Out</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E23ED7BFCAB16916A445C01053BD94AFBFEC8E31</key>
+		<string>https://github.com/zambonichief1721/My-Weekend-Out.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>My Weekend Out.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E23ED7BFCAB16916A445C01053BD94AFBFEC8E31</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zambonichief1721/My-Weekend-Out.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E23ED7BFCAB16916A445C01053BD94AFBFEC8E31</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E23ED7BFCAB16916A445C01053BD94AFBFEC8E31</string>
+			<key>IDESourceControlWCCName</key>
+			<string>My-Weekend-Out</string>
+		</dict>
+	</array>
+</dict>
+</plist>
